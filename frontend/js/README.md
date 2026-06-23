@@ -126,7 +126,7 @@ ConnectHub/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/muzammilsarfraz/ConnectHub.git
+git clone https://github.com/muzammilsarfraz/CodeAlpha_ConnectHub_MiniSocialMediaPlatform.git
 ```
 
 ## 2. Navigate to Backend
