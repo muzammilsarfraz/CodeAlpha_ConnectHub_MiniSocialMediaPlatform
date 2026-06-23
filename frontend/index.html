@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectHub</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <img src="images/logo.png" alt="Logo">
+
+        <h2>ConnectHub</h2>
+
+    </div>
+
+    <ul>
+
+        <li>
+            <a href="index.html">🏠 Home</a>
+        </li>
+
+        <li>
+            <a href="profile.html">👤 Profile</a>
+        </li>
+
+        <li>
+            <a href="#" onclick="logout()">🚪 Logout</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<div class="feed-container">
+
+    <div class="cover-banner">
+
+    <h1>Welcome to ConnectHub 👋</h1>
+
+    <p>Connect • Share • Grow</p>
+
+</div>
+
+    <div class="create-post">
+
+        <div class="create-header">
+
+            <img src="images/default-profile.png">
+
+            <h3 id="username"></h3>
+
+        </div>
+
+        <textarea
+            id="content"
+            placeholder="What's on your mind?"
+        ></textarea>
+
+        <button onclick="createPost()">
+            🚀 Publish
+        </button>
+
+    </div>
+
+    <div id="posts">
+
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+<footer class="footer">
+
+    <h3>ConnectHub</h3>
+
+    <p>Connect • Share • Grow</p>
+
+    <p>
+        Developed by <strong>Muhammad Muzammil Sarfraz</strong>
+    </p>
+
+    <p>
+        © 2026 ConnectHub. All Rights Reserved.
+    </p>
+
+</footer>
+<div id="toast"></div>
+
+</body>
+</html>
