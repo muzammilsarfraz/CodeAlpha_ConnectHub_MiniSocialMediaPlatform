@@ -429,4 +429,8 @@ async function unfollowUser(targetUserId) {
 
 }
 
+function loginUser() {
+    alert("Button clicked");
+}
+
 loadPosts();
